@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaia-agent-eval-harness"
+version = "0.1.0"
+description = "Deterministic evaluation harness and task suite for GAIA (General AI Assistants) benchmark."
+authors = [{ name = "Jatin Sihag", email = "jatinsihag234@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+gaia-eval = "gaia_eval.cli:main"
