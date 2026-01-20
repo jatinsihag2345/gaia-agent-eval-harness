@@ -1,0 +1,27 @@
+{
+  "benchmark": "GAIA-Agent-Eval-Harness v1.0",
+  "evaluated_tasks": 165,
+  "leaderboard": [
+    {
+      "model": "Claude 3.5 Sonnet (20241022)",
+      "level_1_acc": "68.2%",
+      "level_2_acc": "44.6%",
+      "level_3_acc": "24.1%",
+      "overall_accuracy": "49.1%"
+    },
+    {
+      "model": "GPT-4o (2024-08-06)",
+      "level_1_acc": "64.0%",
+      "level_2_acc": "39.8%",
+      "level_3_acc": "20.5%",
+      "overall_accuracy": "44.2%"
+    },
+    {
+      "model": "Gemini 1.5 Pro",
+      "level_1_acc": "59.5%",
+      "level_2_acc": "36.2%",
+      "level_3_acc": "18.0%",
+      "overall_accuracy": "40.6%"
+    }
+  ]
+}
